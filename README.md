@@ -1,3 +1,4 @@
 # Motoko-Calculator
-Bu repoda motoko dili kullanılarak tasarlanmış bir canister bulacaksınız.
-Bu programla standart hesap makinesi işlemlerini gerçekleştirebileceksiniz.
+Bu repoda motoko dili kullanılarak tasarlanmış bir canister yer almaktadır.
+Bu canister, standart hesap makinesi işlemlerini gerçekleştirmenize olanak sağlar.
+Toplama, Çıkarma, Çarpma, Bölme ve Temizle işlevlerine sahiptir.
