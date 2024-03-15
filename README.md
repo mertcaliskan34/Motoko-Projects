@@ -1,2 +1,2 @@
-# Motoko Projeleri
-Bu repoda motoko dili kullanılarak tasarlanmış canisterlar yer almaktadır.
+# Motoko Projects
+This repository features canisters developed with the Motoko programming language.
