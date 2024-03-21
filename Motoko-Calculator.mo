@@ -2,6 +2,7 @@
 
 actor calculator {
   var cell : Int = 0;
+  
   //summing function
   public func sum(n : Int) : async Int {
     cell += n;
