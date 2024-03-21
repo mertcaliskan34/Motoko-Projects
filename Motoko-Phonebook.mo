@@ -1,4 +1,4 @@
-// Imports
+// imports
 
 import Map "mo:base/HashMap";
 import Text "mo:base/Text";
@@ -6,22 +6,31 @@ import Text "mo:base/Text";
 // actor -> canister -> smart contract
 
 actor {
-  type Name = Text;
-  type Phone = Text;
+    // Motoko -> type language
 
-  type Entry = {
-    desc: Text;
-    phone: Phone;
+    type Name = Text;
+    type Phone = Text;
 
-  };
+    type Entry = {
+        desc: Text;
+        phone: Phone;
+    };
 
-  let phonebook= Map.HashMap<Name, Entry>(0, Text.equal, Text.hash);
+    // variables
+    // let -> immutable
+    // var -> mutable
 
-  public func insert(name: Name, entry: Entry) : async (){
-    phonebook.put(name,entry)
-  };
+    let phonebook = Map.HashMap<Name, Entry>(0, Text.equal, Text.hash);
+    
+    // functions
+    // query
+    // update
 
-  public query func lookup(name: Name) : async ?Entry{
-    phonebook.get(name)
-  };
+    public func insert(name: Name, entry: Entry) : async () {
+        phonebook.put(name, entry);
+    };
+
+    public query func lookup(name: Name) : async ?Entry {
+        phonebook.get(name) // return phonebook.get(name);
+    };
 };
