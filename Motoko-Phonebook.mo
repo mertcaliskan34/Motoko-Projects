@@ -5,7 +5,7 @@ import Text "mo:base/Text";
 
 // actor -> canister -> smart contract
 
-actor {
+actor phonebook {
     // Motoko -> type language
 
     type Name = Text;
