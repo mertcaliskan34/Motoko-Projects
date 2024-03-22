@@ -1,8 +1,10 @@
-## Description
+## To-Do List
+
+### Description
 
 This is a simple To-Do List application written in the Motoko programming language. It allows users to add tasks, mark them as completed, view the task list, and clear completed tasks.
 
-## Features
+### Features
 
 * **Task Management:**
     * Adding new tasks
