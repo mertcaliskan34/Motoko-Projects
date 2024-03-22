@@ -1,4 +1,4 @@
-## Phonebook Program
+## Phonebook
 
 ### Description
 
