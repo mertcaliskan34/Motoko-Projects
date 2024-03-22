@@ -1,4 +1,4 @@
-## Calculator Program
+## Calculator
 
 ### Description
 
