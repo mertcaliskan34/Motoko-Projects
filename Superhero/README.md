@@ -1,4 +1,4 @@
-## Superhero Manager
+## Superhero
 
 **Description:**
 
