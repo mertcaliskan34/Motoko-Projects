@@ -1,8 +1,10 @@
-## Description
+## Token
+
+### Description
 
 This Motoko code implements a smart contract actor named `Token` for facilitating secure and verifiable transfers of fungible tokens within an ICRC-1 compliant ledger on the Internet Computer (ICP). It allows users to initiate transfers by specifying the transfer amount and the recipient account.
 
-## Features
+### Features
 
 * **ICRC-1 Compliance:** Ensures interoperability with other ICRC-1 compliant tokens and ledgers on the ICP ecosystem.
 * **Secure Transfers:** Leverages the security mechanisms of the ICRC-1 standard to guarantee safe and reliable token transfers.
