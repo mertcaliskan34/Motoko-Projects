@@ -1,4 +1,4 @@
-## Basic DAO (Decentralized Autonomous Organization)
+## Basic DAO
 
 ### Description
 
