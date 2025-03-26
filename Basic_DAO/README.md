@@ -72,15 +72,3 @@ This project implements a basic Decentralized Autonomous Organization (DAO) cani
     *   Query account balances.
     *   Query proposal details.
     *   Update system parameters (requires being the DAO's principal).
-
-## API Reference
-
-_(A detailed API reference will be added here in a future update.)_
-
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
-
-## License
-
-[Choose a license, e.g., MIT License](LICENSE)
