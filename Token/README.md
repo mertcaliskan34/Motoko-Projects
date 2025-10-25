@@ -17,14 +17,14 @@ This project implements a basic ICRC-1 compliant token canister using the Motoko
 *   `Account`: A record type containing the `owner` (Principal) and optional `subaccount` (Nat8) of an account.
 *   `TransferArgs`: A record type containing the transfer details, including the `amount` (Nat) and the `toAccount` (Account).
 
-## Getting Started
+### Getting Started
 
-### Prerequisites
+#### Prerequisites
 
 *   [DFX (IC SDK)](https://internetcomputer.org/docs/current/developer-docs/setup/install/index.mdx)
 *   `icrc1_ledger_canister` (Ensure this canister is available in your environment, potentially through a Candid interface or a local deployment.)
 
-### Installation
+#### Installation
 
 1.  Clone the repository:
 
@@ -39,7 +39,7 @@ This project implements a basic ICRC-1 compliant token canister using the Motoko
     cd src/Token_backend
     ```
 
-### Usage
+#### Usage
 
 1.  Deploy the canister:
 
@@ -49,7 +49,7 @@ This project implements a basic ICRC-1 compliant token canister using the Motoko
 
 2.  Interact with the canister using DFX or a frontend application. You can call the `transfer` method.
 
-### Example
+#### Example
 
 ```motoko
 // Example of transferring tokens
