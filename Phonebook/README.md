@@ -1,33 +1,33 @@
-# Phonebook - Motoko Project
+## Phonebook - Motoko Project
 
-## Overview
+### Overview
 
 This project implements a simple phonebook application using the Motoko programming language. It allows users to store and retrieve contact information, such as names and phone numbers, within a decentralized environment on the Internet Computer.
 
-## Features
+### Features
 
 *   **Add Contact:** Adds a new contact to the phonebook with a name, description, and phone number.
 *   **Lookup Contact:** Retrieves the contact information (description and phone number) associated with a given name.
 
-## Technologies Used
+### Technologies Used
 
 *   Motoko
 *   HashMap (from `mo:base/HashMap`)
 
-## Data Structures
+### Data Structures
 
 *   `Name`: Type alias for `Text`, representing the contact's name (key).
 *   `Phone`: Type alias for `Text`, representing the contact's phone number.
 *   `Entry`: A record type containing the contact's description and phone number.
 *   `phonebook`: A `Map.HashMap` that stores the phonebook entries, mapping `Name` to `Entry`.
 
-## Getting Started
+### Getting Started
 
-### Prerequisites
+#### Prerequisites
 
 *   [DFX (IC SDK)](https://internetcomputer.org/docs/current/developer-docs/setup/install/index.mdx)
 
-### Installation
+#### Installation
 
 1.  Clone the repository:
 
@@ -42,7 +42,7 @@ This project implements a simple phonebook application using the Motoko programm
     cd src/Phonebook_backend
     ```
 
-### Usage
+#### Usage
 
 1.  Deploy the canister:
 
@@ -52,7 +52,7 @@ This project implements a simple phonebook application using the Motoko programm
 
 2.  Interact with the canister using DFX or a frontend application.  You can call the `insert` and `lookup` methods.
 
-### Example
+#### Example
 
 ```motoko
 // Example of inserting a contact
