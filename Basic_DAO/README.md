@@ -23,25 +23,25 @@ This project implements a basic Decentralized Autonomous Organization (DAO) cani
     *   Updates the proposal state based on the execution outcome (success or failure).
     *   Refunds the proposal submission deposit to the proposer upon successful execution.
 
-## Technologies Used
+### Technologies Used
 
 *   Motoko
 *   Trie (from `mo:base/Trie`)
 
-## Data Structures
+### Data Structures
 
 *   `Account`: Represents a user account with an `owner` (Principal) and a `tokens` balance.
 *   `Proposal`: Represents a proposal with an `id`, `proposer`, `timestamp`, `payload`, `state`, `votes_yes`, `votes_no`, and a list of `voters`.
 *   `ProposalPayload`: Contains the details of the action to be performed if the proposal is accepted, including the `canister_id`, `method`, and `message`.
 *   `SystemParams`: Defines the DAO's configuration parameters, such as `transfer_fee`, `proposal_vote_threshold`, and `proposal_submission_deposit`.
 
-## Getting Started
+### Getting Started
 
-### Prerequisites
+#### Prerequisites
 
 *   [DFX (IC SDK)](https://internetcomputer.org/docs/current/developer-docs/setup/install/index.mdx)
 
-### Installation
+#### Installation
 
 1.  Clone the repository:
 
@@ -56,7 +56,7 @@ This project implements a basic Decentralized Autonomous Organization (DAO) cani
     cd src/Basic_DAO_backend
     ```
 
-### Usage
+#### Usage
 
 1.  Deploy the canisters:
 
