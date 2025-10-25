@@ -1,35 +1,35 @@
-# Superhero Management Canister
+## Superhero Management Canister
 
-## Overview
+### Overview
 
 This project implements a canister for managing superhero information on the Internet Computer using the Motoko programming language. It provides functionalities to create, read, update, and delete (CRUD) superhero profiles, including their names and superpowers. The canister utilizes a Trie data structure for efficient data storage and retrieval.
 
-## Features
+### Features
 
 *   **Create Superhero:** Adds a new superhero to the system with a unique ID, name, and a list of superpowers.
 *   **Read Superhero:** Retrieves the information of a superhero by their ID.
 *   **Update Superhero:** Modifies the information of an existing superhero.
 *   **Delete Superhero:** Removes a superhero from the system.
 
-## Technologies Used
+### Technologies Used
 
 *   Motoko
 *   Trie (from `mo:base/Trie`)
 *   List (from `mo:base/List`)
 
-## Data Structures
+### Data Structures
 
 *   `SuperheroId`: Type alias for `Nat32`, representing the unique identifier for each superhero.
 *   `Superhero`: A record type containing the superhero's name (Text) and a list of superpowers (List.List\<Text>).
 *   `superheroes`: A `Trie.Trie` that stores the superhero data, mapping `SuperheroId` to `Superhero`.
 
-## Getting Started
+### Getting Started
 
-### Prerequisites
+#### Prerequisites
 
 *   [DFX (IC SDK)](https://internetcomputer.org/docs/current/developer-docs/setup/install/index.mdx)
 
-### Installation
+#### Installation
 
 1.  Clone the repository:
 
@@ -44,7 +44,7 @@ This project implements a canister for managing superhero information on the Int
     cd src/Superhero_backend
     ```
 
-### Usage
+#### Usage
 
 1.  Deploy the canister:
 
@@ -54,7 +54,7 @@ This project implements a canister for managing superhero information on the Int
 
 2.  Interact with the canister using DFX or a frontend application. You can call the `create`, `read`, `update`, and `delete` methods.
 
-### Example
+#### Example
 
 ```motoko
 // Example of creating a superhero
