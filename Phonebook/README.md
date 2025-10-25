@@ -1,4 +1,4 @@
-## Phonebook - Motoko Project
+## Phonebook Canister
 
 ### Overview
 
