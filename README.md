@@ -1,7 +1,7 @@
 # Motoko Projects - Internet Computer Internship Bootcamp
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Motoko](https://img.shields.io/badge/Motoko-Learning-blue)](https://internetcomputer.org/)
+[![Motoko](https://img.shields.io/badge/Motoko-Learning-blue)]([https://internetcomputer.org/](https://internetcomputer.org/docs/motoko/home))
 [![DFX](https://img.shields.io/badge/DFX-IC%20SDK-green)](https://internetcomputer.org/docs/current/developer-docs/setup/install/)
 
 > This repository contains educational projects developed during the Internet Computer Bootcamp to learn Motoko programming language and build decentralized applications (dApps) on the Internet Computer (IC).
@@ -72,10 +72,10 @@ dfx canister call <canister_name> <method_name> <arguments>
 
 ## Learning Resources
 
-- [Motoko Documentation](https://internetcomputer.org/docs/current/developer-docs/language-guide/motoko)
-- [DFX Documentation](https://internetcomputer.org/docs/current/developer-docs/setup/install/)
-- [Internet Computer Documentation](https://internetcomputer.org/docs/current/developer-docs/)
-- [Motoko Base Library](https://internetcomputer.org/docs/current/developer-docs/language-guide/motoko)
+- [Motoko Documentation]([https://internetcomputer.org/docs/current/developer-docs/language-guide/motoko](https://internetcomputer.org/docs/motoko/home))
+- [DFX Documentation]([https://internetcomputer.org/docs/current/developer-docs/setup/install/](https://internetcomputer.org/docs/building-apps/developer-tools/dfx/dfx-parent/))
+- [Internet Computer Documentation]([https://internetcomputer.org/docs/current/developer-docs/](https://internetcomputer.org/docs/home))
+- [Motoko Base Library]([https://internetcomputer.org/docs/current/developer-docs/language-guide/motoko](https://internetcomputer.org/docs/motoko/base/))
 
 ## Contributing
 
