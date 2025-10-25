@@ -1,7 +1,7 @@
 # Motoko Projects - Internet Computer Internship Bootcamp
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Motoko](https://img.shields.io/badge/Motoko-Learning-blue)]([https://internetcomputer.org/](https://internetcomputer.org/docs/motoko/home))
+[![Motoko](https://img.shields.io/badge/Motoko-Learning-blue)](https://internetcomputer.org/docs/motoko/home))
 [![DFX](https://img.shields.io/badge/DFX-IC%20SDK-green)](https://internetcomputer.org/docs/current/developer-docs/setup/install/)
 
 > This repository contains educational projects developed during the Internet Computer Bootcamp to learn Motoko programming language and build decentralized applications (dApps) on the Internet Computer (IC).
