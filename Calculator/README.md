@@ -1,10 +1,10 @@
-# Calculator Canister
+## Calculator Canister
 
-## Overview
+### Overview
 
 This project implements a simple calculator canister using the Motoko programming language for the Internet Computer. It provides functionalities to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The canister maintains an internal state (`cell`) to store the current value.
 
-## Features
+### Features
 
 *   **Addition:** Adds a given number to the current value.
 *   **Subtraction:** Subtracts a given number from the current value.
@@ -12,17 +12,17 @@ This project implements a simple calculator canister using the Motoko programmin
 *   **Division:** Divides the current value by a given number, with zero-division check.
 *   **Clear:** Resets the current value to zero.
 
-## Technologies Used
+### Technologies Used
 
 *   Motoko
 
-## Getting Started
+### Getting Started
 
-### Prerequisites
+#### Prerequisites
 
 *   [DFX (IC SDK)](https://internetcomputer.org/docs/current/developer-docs/setup/install/index.mdx)
 
-### Installation
+#### Installation
 
 1.  Clone the repository:
 
@@ -37,7 +37,7 @@ This project implements a simple calculator canister using the Motoko programmin
     cd src/Calculator_backend
     ```
 
-### Usage
+#### Usage
 
 1.  Deploy the canister:
 
@@ -47,7 +47,7 @@ This project implements a simple calculator canister using the Motoko programmin
 
 2.  Interact with the canister using DFX or a frontend application. You can call the `sum`, `sub`, `mult`, `div`, and `clean` methods.
 
-### Example
+#### Example
 
 ```motoko
 // Example of adding 5 to the current value
