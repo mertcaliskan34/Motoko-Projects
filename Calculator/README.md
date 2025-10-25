@@ -58,3 +58,22 @@ let result = await actor.div(2);
 
 // Example of clearing the calculator
 await actor.clean();
+```
+
+### Learning Concepts
+
+This project teaches the following Motoko concepts:
+
+- **State Management**: Using stable variables to maintain calculator state
+- **Basic Operations**: Implementing arithmetic functions (add, subtract, multiply, divide)
+- **Error Handling**: Zero-division check in division operation
+- **Actor Pattern**: Understanding shared actors and public functions
+- **Type System**: Working with Nat (natural numbers) in Motoko
+- **Function Design**: Creating clean, focused functions for specific operations
+
+### Key Learning Outcomes
+
+- Understand how to maintain state in Motoko canisters
+- Learn basic arithmetic operations and their implementation
+- Practice error handling for edge cases (division by zero)
+- Experience the actor model in Internet Computer development

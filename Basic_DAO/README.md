@@ -72,3 +72,62 @@ This project implements a basic Decentralized Autonomous Organization (DAO) cani
     *   Query account balances.
     *   Query proposal details.
     *   Update system parameters (requires being the DAO's principal).
+
+#### Example
+
+```motoko
+import Principal "mo:base/Principal";
+import Nat "mo:base/Nat";
+
+// Example of checking account balance
+let balance = await actor.account_balance();
+
+// Example of transferring tokens
+let transferArgs = {
+  to = Principal.fromText("YOUR_RECIPIENT_PRINCIPAL"); // Replace with recipient's principal
+  amount = { amount_e8s = 100_000_000 }; // 1 token (100 million e8s)
+};
+let transferResult = await actor.transfer(transferArgs);
+
+// Example of submitting a proposal
+let proposalPayload = {
+  canister_id = Principal.fromText("TARGET_CANISTER_ID"); // Replace with target canister
+  method = "update_system_params";
+  message = "encoded_message_here"; // Replace with encoded message
+};
+let proposalResult = await actor.submit_proposal(proposalPayload);
+
+// Example of voting on a proposal
+let voteArgs = {
+  proposal_id = 0; // Replace with actual proposal ID
+  vote = #yes; // or #no
+};
+let voteResult = await actor.vote(voteArgs);
+
+// Example of getting proposal details
+let proposal = await actor.get_proposal(0); // Replace with actual proposal ID
+
+// Example of listing all proposals
+let allProposals = await actor.list_proposals();
+```
+
+### Learning Concepts
+
+This project teaches the following Motoko concepts:
+
+- **Governance Systems**: Implementing decentralized governance mechanisms
+- **Voting Mechanisms**: Creating token-based voting systems
+- **Proposal Management**: Handling proposal submission, voting, and execution
+- **System Parameters**: Managing configurable system parameters
+- **Inter-canister Calls**: Executing actions on other canisters
+- **Complex State Management**: Managing multiple interconnected data structures
+- **Financial Operations**: Handling deposits, refunds, and fee management
+
+### Key Learning Outcomes
+
+- Master decentralized governance system design
+- Learn to implement voting mechanisms and proposal systems
+- Understand complex state management in blockchain applications
+- Practice inter-canister communication and execution
+- Experience working with financial operations and token economics
+- Develop skills in building decentralized autonomous organizations

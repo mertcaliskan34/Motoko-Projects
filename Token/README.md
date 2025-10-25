@@ -68,3 +68,24 @@ let transferArgs : Token.TransferArgs = {
 };
 
 let result = await actor.transfer(transferArgs);
+```
+
+### Learning Concepts
+
+This project teaches the following Motoko concepts:
+
+- **ICRC-1 Standard**: Understanding and implementing token standards
+- **Token Mechanics**: Working with fungible tokens and transfers
+- **Account Management**: Managing user accounts and balances
+- **Asynchronous Processing**: Handling async operations in token transfers
+- **Error Handling**: Implementing robust error handling for financial operations
+- **Inter-canister Communication**: Working with external canisters and dependencies
+
+### Key Learning Outcomes
+
+- Master ICRC-1 token standard implementation
+- Learn token transfer mechanics and account management
+- Understand asynchronous processing in financial applications
+- Practice error handling for critical operations
+- Experience working with external canister dependencies
+- Develop skills in blockchain token development

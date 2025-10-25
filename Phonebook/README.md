@@ -60,3 +60,23 @@ actor.insert("John Doe", { desc = "Friend", phone = "123-456-7890" });
 
 // Example of looking up a contact
 let contact = await actor.lookup("John Doe");
+```
+
+### Learning Concepts
+
+This project teaches the following Motoko concepts:
+
+- **HashMap Usage**: Working with `Map.HashMap` for key-value storage
+- **Data Structures**: Creating custom record types (Entry)
+- **Type Aliases**: Using type aliases for better code readability
+- **Data Storage**: Implementing persistent data storage in canisters
+- **Query Functions**: Understanding the difference between query and update functions
+- **Record Types**: Working with structured data using records
+
+### Key Learning Outcomes
+
+- Master HashMap data structure for efficient data storage
+- Learn to design custom data types for specific use cases
+- Understand the difference between query and update operations
+- Practice data persistence in Internet Computer canisters
+- Experience working with key-value storage patterns

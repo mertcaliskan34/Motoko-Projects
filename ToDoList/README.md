@@ -63,3 +63,24 @@ await actor.completeTodo(taskId);
 
 // Example of viewing tasks
 let todos = await actor.getTodos();
+```
+
+### Learning Concepts
+
+This project teaches the following Motoko concepts:
+
+- **Task Management**: Implementing CRUD operations for task management
+- **State Updates**: Modifying data structures and updating state
+- **ID Generation**: Creating unique identifiers for tasks
+- **Data Filtering**: Filtering and querying data based on conditions
+- **User Interaction**: Designing functions for user-friendly interactions
+- **HashMap Operations**: Advanced HashMap usage for task storage
+
+### Key Learning Outcomes
+
+- Learn to implement task management systems
+- Understand state updates and data modification
+- Practice ID generation and management
+- Master data filtering and querying techniques
+- Experience building user-friendly interfaces
+- Develop skills in data structure manipulation

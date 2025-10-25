@@ -65,3 +65,24 @@ let superheroId = await actor.create({
 
 // Example of reading a superhero
 let superhero = await actor.read(superheroId);
+```
+
+### Learning Concepts
+
+This project teaches the following Motoko concepts:
+
+- **Trie Data Structure**: Working with `Trie.Trie` for efficient data storage
+- **CRUD Operations**: Implementing Create, Read, Update, Delete operations
+- **List Manipulation**: Using `List.List` for managing dynamic collections
+- **ID Management**: Creating and managing unique identifiers
+- **Data Persistence**: Storing complex data structures in canisters
+- **Type Safety**: Working with strongly typed data structures
+
+### Key Learning Outcomes
+
+- Master Trie data structure for efficient storage and retrieval
+- Learn to implement complete CRUD operations
+- Understand List data structure and its operations
+- Practice ID generation and management systems
+- Experience working with complex nested data structures
+- Develop skills in data persistence and retrieval
